@@ -1,0 +1,8 @@
+name,host,device_type,username,password,port,secret,cmd,group
+core-sw-01,192.168.1.10,cisco_ios,admin,env:SW_PASSWORD,,enablepass,,core
+acc-sw-02,192.168.1.11,cisco_ios,admin,env:SW_PASSWORD,,,,access
+hj-sw-03,192.168.1.12,huawei,admin,env:SW_PASSWORD,,,,access
+h3c-sw-04,192.168.1.13,hp_comware,admin,env:SW_PASSWORD,,,,access
+ruijie-05,192.168.1.14,ruijie_os,admin,env:SW_PASSWORD,,,,access
+old-sw-06,192.168.1.15,cisco_ios_telnet,admin,env:SW_PASSWORD,23,enablepass,,legacy
+unknown-07,192.168.1.16,auto,admin,env:SW_PASSWORD,,,,probe

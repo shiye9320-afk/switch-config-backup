@@ -1,0 +1,16 @@
+# 真实设备清单含密码, 绝不入库
+devices.csv
+devices.xlsx
+*.key
+.env
+
+# 备份产物与日志
+backups/
+logs/
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
